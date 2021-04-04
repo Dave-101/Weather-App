@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="container-fluid body">
+        <div class="row">
+            <div class="col-md-4 col-10 wrapper">
+                <div class="main-content">
+                    <form action="" class="form">
+                        <input type="text" class="col-8" id="cityname" placeholder="Enter your City Name">
+                        &nbsp;
+                        <input type="submit" class="col-10 my-2" id="submit" value="Search">
+                    </form>
+                </div>
+                <div class="tempInfo">
+                    <div class="top-layer">
+                        <p id="day"></p>
+                        <p id="date"></p>
+                    </div>
+                    <hr class="hr">
+                    <div class="middle-layer">
+                        <p id="city"></p>
+                        <p id="country"></p>
+                    </div>
+                    <div class="last-layer">
+                        <p style="font-size: 2.7rem; margin-top: 1rem;" id="temerature"></p>
+                        <p style="font-size: 1.5rem; margin-top: 2rem;" id="temp-status"></p>
+                    </div>
+                    <div class="last-layer data-hide">
+                        <p style="font-size: 1.1rem; margin-top: 1rem;" id="humidity"></p>
+                        <p style="font-size: 1.1rem; margin-top: 1rem;" id="temp_max"></p>
+                        <p style="font-size: 1.1rem; margin-top: 1rem;" id="temp_min"></p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    
+    {{>footer}}
+    <script src="js/main.js"></script>
+</body>
+
+</html>

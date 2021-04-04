@@ -1,0 +1,193 @@
+/* h1{
+    background-color: black;
+    color: white;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+}
+
+.wrapper{
+    padding: 1%;
+    /* width: 200px; */
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-top: 4rem;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(0,0,0,1);
+}
+
+#cityname{
+    width: 350px;
+    padding: 1.5%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.hr{
+    border: 1px dashed white;
+}
+
+.middle-layer{
+    /* padding: 1%; */
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(65, 47, 47);
+    /* line-height: 100%; */
+}
+#city, #country, #day, #date{
+    margin-top: 1rem;
+}
+
+#city, #country{
+    font-size: 2rem;
+}
+
+#temp-status{
+    margin-top: 2rem;
+}
+
+.top-layer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(92, 73, 73);
+}
+
+.last-layer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(65, 47, 47);
+}
+
+.last-layer #temperature{
+    font-size: 3rem;
+}
+
+#submit{
+    color: white;
+    font-weight: bold;
+    background-color: dodgerblue;
+    width: 90px;
+    padding: 1.5%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.error{
+    box-shadow: 2px 5px 6px rgb(177, 51, 51);
+    border-radius: 4px;
+}
+.error-msg{
+    margin-top: 2rem;
+    color: red;
+}
+
+.new{
+    height: 350px;
+}
+
+ul li a{
+    margin-left: 2rem;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar-toggler{
+    background-color: grey;
+    outline: none;
+    border: none;
+}
+
+.main-menu{
+    background-color: black;
+}
+
+.navbar{
+    /* color: white; */
+    background-color: black;
+    padding: 1%;
+}
+
+.main_left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 12rem;
+    /* margin-bottom: 5rem; */
+}
+
+.main_right{
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.check{
+    color: white;
+    font-weight: bold;
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 5px 5px rgba(0,0,0,1);
+    width: 110px;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.about-image{
+    width: 350px;
+    height: 420px;
+    margin-top: -2rem;
+    border-radius: 4px;
+    box-shadow: 2px 5px 6px rgb(91, 121, 167);
+}
+
+footer{
+    /* padding: 0.5%; */
+    margin: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer p{
+    line-height: 3.8rem;
+}
+
+@media (max-width: 768px) {
+    .main_left_2{
+        margin-bottom: 2rem;
+        top: -3rem;
+    }
+    .main_left{
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+    .main_right_2{
+        top: -1rem;
+    }
+    .main_right{
+        top: -3rem;
+    }
+
+}

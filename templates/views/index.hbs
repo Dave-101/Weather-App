@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="container-fluid body">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 main_left">
+                        <p>Find out weather details of your place</p>
+                        <h1>Get the latest weather details...</h1>
+                        <a style="width:100px; height: 100px;" href="/weather"><button class="check">Check Now</button></a>
+                    </div>
+                    <div class="col-md-6 col-12 main_right">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/4.jpg" class="d-block w-100 new" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/5.jpg" class="d-block w-100 new" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/6.jpeg" class="d-block w-100 new" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {{>footer}}
+</body>
+
+</html>
